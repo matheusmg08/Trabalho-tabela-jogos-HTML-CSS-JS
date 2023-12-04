@@ -1,0 +1,47 @@
+body{
+    background-color: #bbb3b3;
+}
+h1,h2{
+    margin-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-top: 80px;
+}
+.campo{
+    width: 100px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.campo:hover{
+    background-color: #938e8e;
+}
+.tabela{
+    padding: 40px;
+}
+.btn{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+    gap: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+    background-color: #938e8e;
+}
+.x{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.x:hover{
+    color: #5c5c5c;
+    font-weight: bold;
+}

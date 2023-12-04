@@ -1,0 +1,45 @@
+<!-- 
+    Faça uma página em que o usuário possa inserir, listar e excluir dados de um localstorage, sendo que você deverá colocar 5 atributos referentes ao tema sorteado.
+    Tema:   Jogo
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Jogos</title>
+    </head>
+    <body>
+        <h1>Jogos</h1>
+        <h2>Digite aqui algumas opções sobre algum jogo desejado</h2>
+    <div class="container">
+        <label>
+            Nome do jogo:
+            <input type="text" id="nome" class="campo" placeholder="Nome"/>
+        </label>
+        <label>
+            Gênero do jogo:
+            <input type="text" id="genero" class="campo" placeholder="Gênero"/>
+        </label>
+        <label>
+            Dificuldade do jogo:
+            <input type="text" id="dificuldade" class="campo" placeholder="Dificuldade"/>
+        </label>
+        <label>
+            Para qual console o jogo está disponível:
+            <input type="text" id="console" class="campo" placeholder="Console"/>
+        </label>
+        <label>
+            Sim ou não para modo online:
+            <input type="text" id="online" class="campo" placeholder="Modo Online"/>
+        </label>
+        <input type="button" onclick="inserir()" value="Inserir" class="btn"/>
+        <input type="button" onclick="listar()" value="Listar" class="btn"/>
+        <br/>
+        <div class="tabela">
+            <table border="1" width="100%" id="tabela"></table>
+        </div>
+    </div>
+        <script src="array.js"></script>
+    </body>
+</html>
